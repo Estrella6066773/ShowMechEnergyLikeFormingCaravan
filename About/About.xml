@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Show Mech Energy Like Forming Caravan</name>
+  <name>装载界面显示机械族电量 (Show Mech Energy When Loading)</name>
   <author>Estrella6066</author>
   <packageId>Estrella6066.showMechEnergyLikeFormingCaravan</packageId>
   <modVersion>1.0.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>让「装载运输仓 / 穿梭机」和「进入坑洞等口袋地图」的界面也显示机械族电量，与「组建远征队」界面保持一致。
+  <description>在装载运输舱／穿梭机、以及进入坑洞等口袋地图时，人员列表里也能看到机械族电量——和组建远征队时一样，用蓝色百分比显示。
 
-原版这两处界面复用了组建远征队的同一条绘制逻辑，只是构造列表时把机械族电量开关设成了假，所以列表里能看到机械族却看不到电量。本模组把该开关重新打开，显示效果（蓝色百分比）与组建远征队完全相同。
+原版这两处界面能列出机械族，却不显示电量，临出发前很难判断会不会半路没电。本模组把电量栏补上，方便你决定带谁、要不要先充电。
 
+需要 Harmony。启用「生物科技」后才有机械族电量可看。
 </description>
   <modDependencies>
     <li>
